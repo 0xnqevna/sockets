@@ -25,13 +25,14 @@ Asegúrese de tener un entorno de desarrollo C configurado y las siguientes bibl
 ```shell
 git clone https://github.com/0xnqevna/sockets.git
 cd ejemplo-sockets-c
-
+```
 2. Compile y ejecute el servidor
 ```shell
 gcc servidor.c -o servidor
 ./servidor
-
+```
 3. Compile y ejecute el cliente
 ```shell
 gcc cliente.c -o cliente
 ./cliente
+```
